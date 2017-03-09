@@ -1,0 +1,23 @@
+A word has been chosen by the game. 
+It is a meaningful word. 
+You have to find the word by trial , corresponding to which the game will give you hints.
+All of your trials must not contain repeated letter in a single word.
+
+The hints are of two types - 
+Cow (C) denotes the number of letters that exist in the word to be guessed but with incorrect position.
+Bull (B) denotes the number of letters that exist in the word to be guessed with its exact position.
+
+The game has following levels-
+Easy - The word has 3 letters.
+Medium - The word has 4 letters.
+Difficult - The word has 6 letters.
+
+Example - If the games chooses the word "hope" ,
+	  Word "quit" will return null.
+	  Word "bake" will return "B" for the 'e'.
+	  Word "post" will return "CB" , C for the 'p' and B for the 'o'. 
+
+You have to get all "B"s.
+You have 10 chances to guess that word.
+
+Best of Luck!!!
